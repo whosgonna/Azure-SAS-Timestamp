@@ -129,7 +129,7 @@ Azure::SAS::Timestamp - Creating timestamps for Azure Shared Access Signatures.
 =head1 DESCRIPTION
 
 Azure::SAS::Timestamp can be used to generate validly formated timestamps to
-be used when creating an Azure SAS (Shared Access Signature).  
+be used when creating an Azure SAS (Shared Access Signature).
 Azure::SAS::Timestamp supports input as seconds from epoch, DateTime objects
 and Time::Piece objects.
 
