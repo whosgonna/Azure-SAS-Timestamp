@@ -4,7 +4,7 @@ use Types::Standard qw(Int Str InstanceOf);
 use Time::Piece;
 use Regexp::Common 'time';
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 has time_piece => (
     is  => 'rw',
