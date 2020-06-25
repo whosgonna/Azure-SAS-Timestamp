@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Creating timestamps for Azure Shared Access Signatures.",
    "author" : [
-      "Ben Kaufman <ben.whosgonna.com@gmail.com>"
+      "Ben Kaufman (WHOSGONNA) ben.whosgonna.com@gmail.com"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.1.10, CPAN::Meta::Converter version 2.150010",
@@ -42,17 +42,38 @@
       },
       "runtime" : {
          "requires" : {
+            "Moo" : "0",
+            "Regexp::Common" : "0",
+            "Regexp::Common::time" : "0",
+            "Time::Piece" : "0",
+            "Types::Standard" : "0",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
+            "DateTime" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01",
-   "x_serialization_backend" : "JSON::PP version 4.02",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/whosgonna/Azure-SAS-Timestamp/issues"
+      },
+      "homepage" : "https://github.com/whosgonna/Azure-SAS-Timestamp",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/whosgonna/Azure-SAS-Timestamp.git",
+         "web" : "https://github.com/whosgonna/Azure-SAS-Timestamp"
+      }
+   },
+   "version" : "0.0.1",
+   "x_contributors" : [
+      "Ben Kaufman <ben.kaufman@altigen.com>",
+      "Ben Kaufman <ben.whosgonna.com@gmail.com>"
+   ],
+   "x_serialization_backend" : "JSON::PP version 4.04",
    "x_static_install" : 1
 }
