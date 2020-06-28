@@ -69,7 +69,7 @@
          "web" : "https://github.com/whosgonna/Azure-SAS-Timestamp"
       }
    },
-   "version" : "0.0.2",
+   "version" : "0.0.3",
    "x_contributors" : [
       "Ben Kaufman <ben.kaufman@altigen.com>",
       "Ben Kaufman <ben.whosgonna.com@gmail.com>"

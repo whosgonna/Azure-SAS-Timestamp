@@ -2,6 +2,9 @@ Revision history for Perl extension Azure-SAS-Timestamp
 
 {{$NEXT}}
 
+0.0.3 2020-06-28T21:35:18Z
+    - Fixed GitHub Issue #1.  Use `%Y-%m-%d` instead of `%F`
+
 0.0.2 2020-06-25T05:09:03Z
 
     - original version
