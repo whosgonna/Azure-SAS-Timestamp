@@ -1102,14 +1102,15 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       constant 0
       perl 5.00503
-  Time-Piece-1.31
-    pathname: E/ES/ESAYM/Time-Piece-1.31.tar.gz
+  Time-Piece-1.34
+    pathname: E/ES/ESAYM/Time-Piece-1.34.tar.gz
     provides:
-      Time::Piece 1.31
-      Time::Seconds 1.31
+      Time::Piece 1.34
+      Time::Seconds 1.34
     requirements:
       Exporter 5.57
       ExtUtils::MakeMaker 0
+      Scalar::Util 0
   TimeDate-2.33
     pathname: A/AT/ATOOMIC/TimeDate-2.33.tar.gz
     provides:
