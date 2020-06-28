@@ -49,7 +49,7 @@ is( $without_seconds->sas_time,
 );
 
 
-my $tp  = Time::Piece->strptime( '2020-05-10T13:12:00', '%FT%T');
+my $tp  = Time::Piece->strptime( '2020-05-10T13:12:00', '%Y-%m-%dT%T');
 my $from_timepiece = new_ok(
     'Azure::SAS::Timestamp',
     [ $tp ],

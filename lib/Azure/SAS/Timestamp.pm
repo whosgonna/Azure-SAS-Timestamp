@@ -14,7 +14,7 @@ has time_piece => (
 sub sas_time {
     ## Azure SAS requires time in UTC, but the timestamp must be "Z", not "UTC"
     my $self = shift;
-    return $self->time_piece->strftime( '%FT%TZ' );
+    return $self->time_piece->strftime( '%Y-%m-%dT%TZ' );
 }
 
 sub epoch {
@@ -73,11 +73,11 @@ sub parse_timestamp_str {
             (?<timezone> Z|\w{3})? ## Could have timezone or literal "Z"
             $/x
       ) { 
-        return Time::Piece->strptime( $1, '%FT%T' );
+        return Time::Piece->strptime( $1, '%Y-%m-%dT%T' );
     }
 
     if ( $str =~ /^\d{4} - \d{2} - \d{2}$/) {  ## Matches YYYY-MM-DD
-        return Time::Piece->strptime( $str, '%F' );
+        return Time::Piece->strptime( $str, '%Y-%m-%d' );
         
     }
 
