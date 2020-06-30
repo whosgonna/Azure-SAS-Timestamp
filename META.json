@@ -45,7 +45,7 @@
             "Moo" : "0",
             "Regexp::Common" : "0",
             "Regexp::Common::time" : "0",
-            "Time::Piece" : "0",
+            "Time::Piece" : "1.3",
             "Types::Standard" : "0",
             "perl" : "5.008001"
          }
@@ -69,7 +69,7 @@
          "web" : "https://github.com/whosgonna/Azure-SAS-Timestamp"
       }
    },
-   "version" : "0.0.3",
+   "version" : "0.0.4",
    "x_contributors" : [
       "Ben Kaufman <ben.kaufman@altigen.com>",
       "Ben Kaufman <ben.whosgonna.com@gmail.com>"
