@@ -1,7 +1,7 @@
 requires 'perl', '5.008001';
 requires 'Moo';
 requires 'Types::Standard';
-requires 'Time::Piece';
+requires 'Time::Piece', '1.3';
 requires 'Regexp::Common';
 requires 'Regexp::Common::time';
 
